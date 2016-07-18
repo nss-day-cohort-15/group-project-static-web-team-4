@@ -1,0 +1,60 @@
+nav {
+  background-color: black;
+}
+
+.top-nav {
+  height: 55px;
+}
+
+.top-nav li:hover {
+  background-color: grey;
+}
+
+.top-nav li {
+  list-style-type: none;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 3px;
+  display: inline-block;
+  width: 5em;
+  height: 1.5em;
+  text-align: center;
+  padding-top: 15px;
+  color: white;
+  background-color: black;
+}
+
+header {
+  text-align: center;
+}
+
+.header-image {
+  width: 100%;
+}
+
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+h3 {
+  text-align: center;
+}
+
+p {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.awards {
+  width: 100px;
+  height: 100px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+#container {
+  text-align: center;
+}
