@@ -8,7 +8,7 @@ url: "http://i3.cpcache.com/product/376541894/javascript_coffee_mug.jpg?side=Bac
 
 {name: "Infant bodysuit",
 description: "OK. You're a tech person, a programmer, and you have a baby. Need to remember when it's changing time? Well, here's your script. Stinky = true.",
-price: "17.95",
+price: "$17.95",
 url: "http://i3.cpcache.com/product/734296079/stinky_baby_infant_bodysuit.jpg?width=225&height=225&Filters=%5b%7b%22name%22%3a%22background%22%2c%22value%22%3a%22F2F2F2%22%2c%22sequence%22%3a2%7d%5d", },
 
 {name: "Mousepad",
