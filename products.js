@@ -18,7 +18,7 @@ url: "http://i3.cpcache.com/product/1031057160/i_write_code_mousepad.jpg?height=
 
 
     for(var i = 0; i < productArray2.length; i++){
-document.getElementById("mug").innerHTML += `<h2> ${
+document.getElementById("mug2").innerHTML += `<h2> ${
 productArray[i].name } </h2><p>${productArray[i].description}</p><p>${
 productArray[i].price}</p><img src=${productArray[i].url}>`;
 
