@@ -24,12 +24,13 @@ nav {
   background-color: black;
 }
 
-header {
-  text-align: center;
+body {
+  background-color: #DBDBDB;
 }
 
 .header-image {
   width: 100%;
+  text-align: center;
 }
 
 h1 {
