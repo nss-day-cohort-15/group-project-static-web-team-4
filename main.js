@@ -17,16 +17,16 @@
 
 
     var productArray = [
-  {name: "The Internet Is Broken So I&rsquo;m Outside Today Mug",
+  {name: "The Internet&rsquo;s Broken Mug",
   description: "Add some personality to your favorite brew. Good for all types of beverages, this classic container is a great way to make your hot cocoa cool again.",
   price: "$24.97",
   url: "https://image.spreadshirtmedia.com/image-server/v1/products/1012260118/views/1,width=800,height=800,appearanceId=258,version=1468544801.webp" }, //will use .innerHTML to code into DOM
-  {name: "Hip Hip Array Programming Joke Apron",
-  description: "For the chef in the family, this full-body apron is perfect for keeping your clothing clean. Complete with pockets for all of your kitchen utensils and condiments, this one is a must have for the kitchen, the grill or the open fire.",
+  {name: "Hip Hip Array Joke Apron",
+  description: "For the chef in the family, this full-body apron is perfect for keeping your clothing clean. Complete with pockets for your utensils and condiments.",
   price: "$22.98",
   url: "https://image.spreadshirtmedia.com/image-server/v1/products/14172065T158A2PC118720347PA238PT14X0Y119S81/views/1,width=800,height=800,appearanceId=2,version=1439463983.webp"},
-  {name: "Life is too short to remove USB safely Mousepad",
-  description: "If you&rsquo;ve ever used your mouse on top of your desk with no mouse pad, you know it is a shaky experience at best. It can be very frustrating when the pointer doesn&rsquo;t go where you need it to. Avoid the frustration in style with a personalized ergonomic mouse pad.",
+  {name: "Life is too short Mousepad",
+  description: "If you&rsquo;ve used a mouse on your desk with no mousepad, you know it can be shaky. Avoid the frustration in style with an ergonomic mousepad.",
   price: "$19.99",
   url: "https://image.spreadshirtmedia.com/image-server/v1/products/102973423T993A1PC1012583622PA2168PT10X22Y0S94/views/1,width=800,height=800,appearanceId=1,version=1440749389.webp"
 }];
