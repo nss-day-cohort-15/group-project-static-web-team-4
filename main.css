@@ -1,0 +1,106 @@
+/*Navigation CSS */
+
+
+* {
+box-sizing: border-box;
+}
+
+nav ul  {
+  width: 90%;
+  margin: 0;
+  display: inline-block;
+  list-style-type: none;
+  background-color: black;
+  height: 50px;
+  border: 1px solid grey;
+  text-decoration: none;
+  padding-left: 1%;
+
+}
+
+nav ul li {
+  float: left;
+  margin: 15px 0;
+
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+nav ul li a:hover {
+  background: grey;
+}
+
+/*a.plain {
+text-decoration: none;
+  color: grey;
+  padding-left: 0;
+}*/
+
+header p {
+  color: grey;
+  margin-top: -15px;
+}
+
+header h1 {
+  font-size: 3em;
+}
+
+/*body styling */
+
+body {
+  background-color: #DBDBDB;
+}
+
+/*top colum*/
+
+div.first {
+  width: 45%;
+  float: left;
+  text-align: justify;
+  margin: auto;
+  padding: 15px;
+}
+
+div.second {
+  width: 45%;
+  float: right;
+  display: inline-block;
+  margin: auto;
+  padding: 15px;
+}
+
+div.second img {
+  width: 70%;
+  padding: 0;
+  vertical-align: middle;
+}
+
+
+/*Last column */
+
+div.third {
+  width: 100%;
+  display: inline-block;
+
+
+}
+
+div.third section {
+  width: 30%;
+  display: inline-block;
+ /* background-color: #BFBFBF;*/
+
+}
+
+div.third section p {
+  text-align: center;
+}
+
+div.third section a {
+  text-decoration: none;
+  color: black;
+  text-align: center;
+}
