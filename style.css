@@ -1,3 +1,56 @@
+nav {
+  background-color: black;
+}
+
+.top-nav {
+  height: 55px;
+}
+
+.top-nav li:hover {
+  background-color: grey;
+}
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:active {
+  color: darkgrey;
+  text-decoration: underline;
+}
+
+.top-nav li {
+  list-style-type: none;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 3px;
+  display: inline-block;
+  width: 5em;
+  height: 1.5em;
+  text-align: center;
+  padding-top: 15px;
+  color: white;
+  background-color: black;
+}
+
+/*This is the full body*/
+body {
+  margin: 0.5%;
+  /*font-family: sans-serif;*/
+  background-color: #DBDBDB;
+}
+
+
+/*this is for the title of the product*/
+h2 {
+  font-size: 20px;
+}
+
 /*this is for the images*/
 div img {
   height: 150px;
@@ -23,12 +76,6 @@ div p {
   text-align: justify;
 }
 
-/*This is the full body*/
-body {
-  margin: 0.5%;
-  font-family: sans-serif;
-}
-
 /*This is the price*/
 div p:nth-of-type(2n) {
   font-weight: bold;
@@ -41,4 +88,4 @@ div {
   width: 30%;
   display: inline-block;
   margin: 0.5%;
-}
+  }
