@@ -1,0 +1,155 @@
+
+body {
+  background: radial-gradient( #5C5046, transparent 70%);
+}
+#header {
+  background-size: cover;
+  background-color: #ccc;
+  padding: 0;
+  box-shadow: -5px -8px 5px #333;
+  text-align: center;
+
+
+}
+.frame {
+  margin-left:10px;
+  padding-bottom: 2px;
+}
+h1 {
+  color: #BD5600;
+}
+h2 {
+  color: black;
+}
+h4 {
+  color: black;
+}
+
+nav {
+  background-color: black;
+
+  width: 100%;
+
+}
+
+.top-nav {
+  height: 55px;
+}
+
+.top-nav li:hover {
+  background-color: grey;
+}
+
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:active {
+  color: darkgrey;
+  text-decoration: underline;
+}
+
+
+.top-nav li {
+  list-style-type: none;
+  cursor: pointer;
+  border: 1px solid black;
+  border-radius: 3px;
+  display: inline-block;
+  width: 5em;
+  height: 1.5em;
+  text-align: center;
+  padding-top: 15px;
+  color: white;
+  background-color: black;
+}
+.page-employee {
+  box-sizing: border-box;
+  width: 23%;
+  height: 400px;
+  margin: 70px auto 8px auto;
+  float: left;
+  border: 1px dotted lightgrey;
+  margin: 3px;
+  background-color: white;
+  box-shadow: -5px -8px 5px #333;
+}
+
+.name-employee {
+  font-family: Gotham Book;
+  font-size: 30px;
+  color: #a60003;
+
+
+}
+.position {
+  color:#a60003;
+
+}
+.pic-employee img {
+  display: block;
+  float: left;
+  width: 45%;
+  height: auto;
+  margin-right: 30px;
+  box-shadow: -5px -8px 5px #333;
+}
+.bio {
+  text-align: justify;
+  margin: 2px;
+  text-shadow: 2%;
+
+}
+footer {
+  background-color: black;
+  color: white;
+  position: relative;
+  clear: both;
+  /*margin-top: -300px;*/
+  height: 500px;
+  padding-bottom: auto;
+  text-align: center;
+  box-shadow: -5px -8px 5px #333;
+  margin-bottom: 2px;
+}
+#about-us {
+  border: 1px solid black;
+  float: right;
+  width: 45%;
+  text-align: justify;
+  padding: 2px;
+}
+
+.footer-msg {
+  text-align: left;
+  border: 1px solid black;
+  float: left;
+  width: 45%;
+  text-align: justify;
+}
+.job-heading {
+  text-align: center;
+  width: auto;
+  background-color: grey;
+  padding: 2px;
+}
+#team-pic img {
+  width: 100%;
+
+}
+#bottom {
+  margin-bottom: 0;
+  background-color: grey;
+  color: white;
+  width: 100%;
+  margin-top: 425px;
+  height: 60px;
+  text-align: center;
+}
+
