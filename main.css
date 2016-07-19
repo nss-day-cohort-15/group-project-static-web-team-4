@@ -12,7 +12,6 @@ nav ul  {
   list-style-type: none;
   background-color: black;
   height: 50px;
-  border: 1px solid grey;
   text-decoration: none;
   padding-left: 1%;
 
@@ -20,18 +19,45 @@ nav ul  {
 
 nav ul li {
   float: left;
-  margin: 15px 0;
+  margin: 15px 10px 15px 0px;
 
 }
 
 nav ul li a {
   text-decoration: none;
   color: white;
+
 }
 
 nav ul li a:hover {
   background: grey;
 }
+
+nav {
+ background-color: black;
+}
+
+/*.*//*top-nav {
+ height: 55px;
+}
+
+.top-nav li:hover {
+ background-color: grey;
+}
+
+.top-nav li {
+ list-style-type: none;
+ cursor: pointer;
+ border: 1px solid black;
+ border-radius: 3px;
+ display: inline-block;
+ width: 5em;
+ height: 1.5em;
+ text-align: center;
+ padding-top: 15px;
+ color: white;
+ background-color: black;
+}*/
 
 /*a.plain {
 text-decoration: none;
