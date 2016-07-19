@@ -1,5 +1,8 @@
 nav {
   background-color: black;
+
+  width: 100%;
+
 }
 
 .top-nav {
@@ -9,6 +12,22 @@ nav {
 .top-nav li:hover {
   background-color: grey;
 }
+
+
+a:link {
+  text-decoration: none;
+  color: white;
+}
+
+a:visited {
+  color: white;
+}
+
+a:active {
+  color: darkgrey;
+  text-decoration: underline;
+}
+
 
 .top-nav li {
   list-style-type: none;
@@ -51,11 +70,20 @@ p {
 
 .awards {
   width: 100px;
-  height: 100px;
+  height:   100px;
   margin-right: auto;
   margin-left: auto;
 }
 
 #container {
   text-align: center;
+
+}
+
+footer {
+  border-top: 1px solid black;
+  opacity: 25%;
+  margin-bottom: 35px;
+  bottom: 0;
+
 }
