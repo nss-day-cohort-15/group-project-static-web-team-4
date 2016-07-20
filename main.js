@@ -65,10 +65,34 @@ url:"https://image.spreadshirtmedia.com/image-server/v1/products/12771508T835A40
 
 
 
-    for(var i = 0; i < productArray.length; i++){
+for(var i = 0; i < productArray.length; i++){
         document.getElementById("mug").innerHTML += `<h2> ${ productArray[i].name } </h2><p>${productArray[i].description}</p><p>${productArray[i].price}</p><img src= ${productArray[i].url}>`;
           // "<h2>" + productArray[i].name + "</h2><p>" + productArray[i].description + "</p>"
 // console.log(productArray[i])
 }
+
+var navLinks = document.querySelectorAll('li')
+var pages = document.querySelectorAll('.page')
+
+for (var i = 0; i < navLinks.length; i++) {
+  navLinks[i].addEventListener('click', clickedNavLink);
+}
+
+function clickedNavLink (evt) {
+  for (var i = 0; i < pages.length; i++) {
+    pages[i].classList.add('hidden')
+  }
+  showPage(evt.target.hash);
+}
+
+function showPage (id) {
+  if (id) {
+    document.querySelector(id).classList.remove('hidden')  // <---all this removes the # from the url line when on load
+  } else {
+    document.querySelector('#home').classList.remove('hidden')
+  }
+};
+
+showPage(location.hash)
 
 
